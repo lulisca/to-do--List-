@@ -1,0 +1,41 @@
+button{
+    background-color:rgba(244, 244, 60, 0.981);
+    color: #174f0f;
+    border: none;
+    height: 30px;
+    cursor: pointer; /* dica a maozinha quando clica */
+    transition: 0.5s;/* tempo do efeito  */
+    width: 50%;/* largura 70% do espaco disponível p ele */
+} 
+button:hover{/* efeitos do botão com o mouse em cima  */
+    background-color:#2fda19;
+}
+button:active{/* enquanto ele estiver sendo clicado */
+    background-color:#c2fbba;
+    
+}
+h1{
+    font-size:50px ;
+    color: rgba(79, 67, 185, 0.821);
+    text-align: center;/* alinhar no centro*/
+}
+body{
+    background-color: antiquewhite;
+    max-width: 400px;/* o maximo que ele pode ocupar na tela */
+    margin: 100px auto; /* 100 é o de cima e auto ele vao sozinho pro meio (da pra ver em expesionar elemento)*/
+    font-family: fantasy;
+
+}
+input{
+    height: 20px; /* altura do botão */
+    border: 2px solid #6c3baa/* tamanho, cor e tipo da borda  */
+    
+}
+
+
+li {
+    color: black;
+    padding: 10px; /* para as palavras não ficarem grudadas */
+    border-radius: 5px;
+    margin: 10px; /* margem de cima, como antes */
+}
